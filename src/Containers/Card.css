@@ -1,5 +1,5 @@
 .bg-light-green {
-    background-color: lightgreen;
+    background-color: rgb(189, 241, 189);
 }
 .dib {
     display: inline-block;
@@ -16,11 +16,11 @@
 }
 .grow:hover {
     transform: scale(1.05);
-    transition: .5s;
+    transition: .3s;
 }
 .grow:not(:hover){
     transform: scale(1.0);
-    transition: .5s;
+    transition: .3s;
 }
 .bw2 {
     border-width: .25rem;
@@ -50,8 +50,20 @@
     font-size: 3rem;
 }
 .f2 {
-    font-size: 2.25rem;
+    font-size: 1.3rem;
 }
 .f3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+img {
+    width: 60%;
+    height: auto;
+}
+.wi {
+    width: 18rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.wid {
+    width: 16rem
 }
