@@ -1,0 +1,57 @@
+.bg-light-green {
+    background-color: lightgreen;
+}
+.dib {
+    display: inline-block;
+    margin: 0 2%;
+}
+.br3 {
+    border-radius: .5rem;
+}
+.pa3 {
+    padding: 1rem;
+}
+.ma2 {
+    margin: .5rem;
+}
+.grow:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+.grow:not(:hover){
+    transform: scale(1.0);
+    transition: .5s;
+}
+.bw2 {
+    border-width: .25rem;
+}
+.shadow-5 {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+.pa2 {
+    padding: .5rem;
+}
+.pa3 {
+    padding: 1rem;
+}
+.ba {
+    border-style: solid;
+}
+.b--green {
+    border-color: green;
+}
+.bg-lightest-blue {
+    background-color: rgba(163, 213, 247, 0.918);
+}
+.tc {
+    text-align: center;
+}
+.f1 {
+    font-size: 3rem;
+}
+.f2 {
+    font-size: 2.25rem;
+}
+.f3 {
+    font-size: 1.5rem;
+}
